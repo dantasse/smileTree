@@ -6,8 +6,8 @@ OpenFrameworks app, mashing together [ofxCv](https://github.com/kylemcdonald/ofx
 Here's what I did to get it running:
 
 1. download OpenFrameworks (version 0.8.4 for osx/xcode)
-2. put this in `of_v0.8.4_osx_release/apps/myApps`
-3. download the required addons (ofxCv, ofxProcTree, ofxMeshUtils), unzip them, make sure their names are correct (e.g. ofxCv, not ofxCv-master), put the folders in `of_v0.8.4_osx_release/addons`
+2. clone or download this repo, put it in `of_v0.8.4_osx_release/apps/myApps`
+3. download the required addons (ofxCv, ofxProcTree, ofxMeshUtils), unzip them, make sure their names are correct (e.g. ofxCv, not ofxCv-master), put the folders in `of_v0.8.4_osx_release/addons`. Note! The version of ofxCv you want is [0.8.4](https://github.com/kylemcdonald/ofxCv/releases/tag/0.8.4), as that plays well with ofx version 0.8.4.
 4. open xcode, open the smileTree.xcodeproj file
 5. pray to your deity or spirit of choice
 6. try to run smileTree-debug
